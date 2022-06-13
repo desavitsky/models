@@ -114,4 +114,4 @@ object MyStreamingKMeansModel {
   val empty = MyStreamingKMeansModel(Array.empty, List.empty)
 }
 
-private[temp] case class ClusterInfo(clusterIndex: Int, nPoints: Int)
+case class ClusterInfo(clusterIndex: Int, nPoints: Int)
